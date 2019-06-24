@@ -5,7 +5,7 @@
     height: 70px;
     width: 100%;
     padding-top: 20px;
-    background: $color-main !important;
+    background: white !important;
   }
   .logoImage {
     height: 130px;
@@ -20,8 +20,7 @@
   }
   .nav-link {
     text-align: center;
-    // color: #525c65;
-    color: white !important;
+    color: #525c65;
     letter-spacing: 0;
     text-transform: uppercase;
     display: block;
@@ -30,13 +29,13 @@
     padding: 17px 10px 14px;
     // float: none !important;
     &:hover {
-      color: $color-main !important;
-      border-bottom: solid 2px $color-main;
-      padding-bottom: 15px;
+      color: red !important;
+      border-bottom: solid 2px red;
+      padding-bottom: 10px;
     }
   }
   .nav-info{
-    margin-left: 80vh;
+    margin-left: 40vh;
     right: 0;
     top: 22px;
     text-align: left;
@@ -57,8 +56,8 @@
       left: 0 !important;
       &:hover {
         padding: inherit;
-        background-color: $color-main;
-        color: #ffff !important;
+        background-color: white;
+        color: black !important;
       }
     }
   }
