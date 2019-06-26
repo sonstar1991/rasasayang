@@ -22,7 +22,6 @@
 
 .footer-pic{
     width: 100%;
-    height: 100%;
 }
 
 .footer-table{
@@ -34,6 +33,10 @@
 .footer-right{
     padding-right: 0;
     padding-left: 0;
+    position: relative;
+    max-height: 450px;
+    overflow: hidden;
+
 }
 
 td{
@@ -41,8 +44,14 @@ td{
     font-family: "Montserrat",sans-serif;
     font-size: 13px;
     text-align: left;
+    
 }
 
 span{
     padding:8px;
+}
+
+.row{
+    margin-right:0;
+    margin-left: 0;
 }
