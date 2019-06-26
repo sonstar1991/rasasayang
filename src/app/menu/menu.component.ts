@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import 'jquery';
 
 declare var $: any;
+// declare var e: any;
 @Component({
   selector: 'app-menu',
   templateUrl: './menu.component.html',

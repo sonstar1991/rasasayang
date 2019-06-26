@@ -73,7 +73,7 @@
   top: 0;
   left: 0;
   display: block;
-  background: red;
+  background-color: yellow;
   border-radius: 3px;
   z-index: -1;
   transition: 0.24s;
@@ -81,6 +81,10 @@
 
 * {
   box-sizing: border-box;
+}
+
+.column{
+    text-align: center;
 }
 
 //   body {
