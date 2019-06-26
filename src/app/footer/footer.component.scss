@@ -1,14 +1,18 @@
+*{
+    font-family: "Montserrat",sans-serif;
+}
+
 .footer-bg{
     background-color: black;
     opacity: 1;
 }
 
 .footer-left{
-    padding: 10px
+    padding: 10px;
 }
 
 .footer-logo{
-    height: 130px;
+    height: 50vh;
     // position: absolute;
     top: 12px;
     left: 0;
@@ -31,24 +35,26 @@
 }
 
 .footer-right{
-    padding-right: 0;
-    padding-left: 0;
-    position: relative;
-    max-height: 450px;
-    overflow: hidden;
-
+    padding: 10vh;
+    display: inline;
 }
+
+.footer-opening{
+    font-size:6vh;
+}
+// .footer-day{
+//     border-right: 1px dotted white;
+// }
 
 td{
     padding: 8px;
-    font-family: "Montserrat",sans-serif;
-    font-size: 13px;
+    font-size: 2vh;
     text-align: left;
-    
 }
 
 span{
     padding:8px;
+    font-size:2vh;
 }
 
 .row{

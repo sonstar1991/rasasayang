@@ -1,71 +1,70 @@
-@import '../../../variable.scss';
+@import "../../../variable.scss";
 
 .navbar {
-    // position: relative;
-    height: 70px;
-    width: 100%;
-    padding-top: 20px;
-    background: white !important;
-  }
-  .logoImage {
-    height: 130px;
-    position: absolute;
-    top: 12px;
-    left: 2%;
-    margin: 0;
-  }
-  .nav-item {
-    padding: 8px;
-    display: block;
-  }
-  .nav-link {
-    text-align: center;
-    color: #525c65;
-    text-transform: uppercase;
-    display: block;
-    font-size: 19px;
-    font-weight: 400;
-    padding: 17px 10px 14px;
-    letter-spacing: 3px;
-    // font-family: "reservation",sans-serif;
-    // float: none !important;
-    &:hover {
-      color: red !important;
-      border-bottom: solid 2px red;
-      padding-bottom: 10px;
-    }
-  }
-  .nav-info{
-    // margin-left: 20vh;
-    // right: 0;
-    // top: 22px;
-    text-align: center;
-    letter-spacing: 3px;
-    left:40%;
+  position: relative;
+  height: 70px;
+  width: 100%;
+  padding-top: 20px;
+  background: white !important;
 }
+.navbar-nav{
+  margin-left: 150px;
+}
+.logoImage {
+  height: 130px;
+  position: absolute;
+  top: 12px;
+  left: 2%;
+  margin: 0;
+}
+.nav-item {
+  padding: 8px;
+  display: block;
   
-  
-  @media (min-width: 992px) {
-    .navbar-expand-lg .navbar-collapse {
-      display: flex !important;
-      flex-basis: auto;
-      padding-right: 16px !important;
+}
+.nav-link {
+  text-align: center;
+  color: #525c65;
+  text-transform: uppercase;
+  display: block;
+  font-size: 19px;
+  font-weight: 400;
+  padding: 17px 10px 14px;
+  letter-spacing: 3px;
+  // font-family: "reservation",sans-serif;
+  // float: none !important;
+  &:hover {
+    color: red !important;
+    border-bottom: solid 2px red;
+    padding-bottom: 10px;
+  }
+}
+.nav-info {
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    padding-right: 16px !important;
+  }
+}
+@media only screen and (max-width: 1004px) {
+  .nav-link {
+    padding: 10px 0px 10px 0px;
+    font-size: 15px;
+    left: 0 !important;
+    &:hover {
+      padding: inherit;
+      background-color: white;
+      color: black !important;
     }
   }
-  @media only screen and (max-width: 1004px) {
-    .nav-link {
-      padding: 10px 0px 10px 0px;
-      font-size: 15px;
-      left: 0 !important;
-      &:hover {
-        padding: inherit;
-        background-color: white;
-        color: black !important;
-      }
-    }
+}
+@media only screen and (width: 1440px) {
+  .col-lg-10 {
+    left: 5%;
   }
-  @media only screen and (width: 1440px) {
-    .col-lg-10 {
-      left: 5%;
-    }
-  }
+}
