@@ -15,11 +15,13 @@
   &__header {
     display: flex;
     align-items: baseline;
+    padding: 10px;
   }
 
   &__title {
-    font: 15px cookie, cursive;
-    color: red;
+    font-size: 15px;
+    font-family: "Montserrat",sans-serif;
+    color: black;
     letter-spacing: 2px;
     margin: 0;
   }
@@ -31,12 +33,15 @@
   }
 
   &__price {
-    color: red;
-    font: 31px cookie, cursive;
+    color: black;
+    font-size: 18px;
+    font-family: "Montserrat",sans-serif;
   }
 
   &__description {
     margin-bottom: 40px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 10px;
   }
 
   &__foodpic{
