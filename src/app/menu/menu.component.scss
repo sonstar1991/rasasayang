@@ -6,8 +6,12 @@
   }
 
   @media (min-width: 768px) {
-    grid-template-columns: repeat(2, 1fr);
+    // grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 80px;
+    grid-template-rows: repeat(2,1fr);
+    border: 1px solid;
+    padding: 80px;
+    background:url(../../assets/image/bg.jpg); 
   }
 }
 
@@ -28,7 +32,7 @@
 
   &__dots {
     flex: 1;
-    border-bottom: 1px dashed #aaa;
+    // border-bottom: 1px dashed #aaa;
     margin: 0 15px;
   }
 
@@ -118,4 +122,8 @@ h2 {
   border-bottom: 4px solid red;
   margin-top: 0;
   font: 50px cookie, cursive;
+}
+
+.chefspecial-header{
+  text-align: center;
 }
