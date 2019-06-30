@@ -1,5 +1,8 @@
 .menu {
   display: none;
+  border: 1px solid;
+  padding: 80px;
+  background:url(../../assets/image/bg.jpg); 
 
   &--is-visible {
     display: grid;
@@ -9,9 +12,7 @@
     // grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 80px;
     grid-template-rows: repeat(2,1fr);
-    border: 1px solid;
     padding: 80px;
-    background:url(../../assets/image/bg.jpg); 
   }
 }
 
@@ -122,6 +123,8 @@ h2 {
   border-bottom: 4px solid red;
   margin-top: 0;
   font: 50px cookie, cursive;
+  margin-top:40px;
+  margin-bottom: 30px;
 }
 
 .chefspecial-header{
