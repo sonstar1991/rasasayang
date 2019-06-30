@@ -2,6 +2,7 @@
   width: 100vw;
   height: 100%;
   margin-top: -5vw;
+  background: rgba(0,0,0,0.5) !important;
 }
 .hero-cta {
   max-height: 90vh;
@@ -37,25 +38,74 @@
 }
 
 .midcta-h2{
-  border-bottom: 1px solid #d42529;
+  border-bottom: 2px solid #d42529;
   text-align: center;
   padding:7px;
-
+  -webkit-box-shadow: 0 4px 6px -6px #222;
+  -moz-box-shadow: 0 4px 6px -6px #222;
+  box-shadow: 0 4px 6px -6px #222;
+  color: #d42529;
 }
 
-.food-intro {
-  // background-image: url("../../assets/image/bg.png");
-  // background-repeat: no-repeat;
-  // background-position: 50% 50%;
-  // background-size: cover;
-  background: white;
+.food-intro1 {
+  background-image: url("../../assets/image/noodle.jpg");
+  background-repeat: no-repeat;
+  background-position: 10%;
+  background-size: cover;
+  // background: white;
   border: 2px solid #e2e2e2;
   padding: 60px 30px;
   margin-bottom: 20px;
   margin-top: 20px;
   text-align: center;
   height: 40vh;
-  &hover{
-    border: 2px solid #d42529;
-  }
+}
+.food-intro2 {
+  background-image: url("../../assets/image/noodle.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
+  // background: white;
+  border: 2px solid #e2e2e2;
+  padding: 60px 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+  height: 40vh;
+}
+.food-intro3 {
+  background-image: url("../../assets/image/noodle.jpg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
+  // background: white;
+  border: 2px solid #e2e2e2;
+  padding: 60px 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+  height: 40vh;
+}
+
+.food-h2{
+  font-weight: 500;
+  font-size: 23px;
+  color: #d42529;
+  margin-bottom: 20px;  
+}
+
+.food-text{
+  font-weight: 400;
+  font-size: 15px;
+  color: #d42529;
+  text-align: justify center;
+  margin-bottom: 20px;
+}
+
+.food-links{
+  font-weight: 400;
+  font-size: 15px;
+  color: #d42529;
+  text-decoration: underline;
+  padding:5px;
 }
