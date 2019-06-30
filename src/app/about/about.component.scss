@@ -1,8 +1,30 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
 .about-bg {
-  background-image: url("../../assets/image/bg.jpg");
-  background-repeat: no-repeat;
-  //   background-size: cover;
-  //   height: 800px;
+    width: 100%;
+}
+
+.about-container {
+  margin-top: 300px;
+}
+
+.about-shop {
+  // height: 50vh;
+  // top: 12px;
+  // left: 0;
+  // margin: 0;
+  width: 100%;
+}
+
+.about-h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.about-left{
+  padding: 10px;
 }
 
 #mu-gallery {
