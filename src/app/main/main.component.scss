@@ -60,7 +60,7 @@
 }
 
 .food-intro1 {
-  background-image: url("../../assets/image/noodle.jpg");
+  background-image: url("../../assets/image/noodleginger.jpg");
   background-repeat: no-repeat;
   background-position: 10%;
   background-size: cover;
@@ -76,7 +76,7 @@
   z-index: -2;
 }
 .food-intro2 {
-  background-image: url("../../assets/image/noodle.jpg");
+  background-image: url("../../assets/image/noodleflower.jpg");
   background-repeat: no-repeat;
   background-position: 100%;
   background-size: cover;
@@ -92,7 +92,7 @@
   z-index: -2;
 }
 .food-intro3 {
-  background-image: url("../../assets/image/noodle.jpg");
+  background-image: url("../../assets/image/spices.jpg");
   background-repeat: no-repeat;
   background-position: 100%;
   background-size: cover;
@@ -110,9 +110,14 @@
 
 .food-h2 {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 2vw;
   color: white;
   margin-bottom: 20px;
+}
+@media only screen and (max-width: 900px) {
+  .food-h2{
+    font-size: 32px;
+  }
 }
 
 .food-text {
