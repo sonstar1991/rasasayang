@@ -1,11 +1,15 @@
 @import "../../../variable.scss";
+*{
+  font-family: "Montserrat",sans-serif;
+}
 
 .navbar {
   position: relative;
   height: 70px;
   width: 100%;
   padding-top: 20px;
-  background: white !important;
+  background: url(../../assets/image/bg4.png);
+  z-index: 1;
 }
 .navbar-nav{
   margin-left: 150px;
@@ -16,6 +20,7 @@
   top: 12px;
   left: 2%;
   margin: 0;
+  z-index: 1;
 }
 .nav-item {
   padding: 8px;
@@ -24,7 +29,8 @@
 }
 .nav-link {
   text-align: center;
-  color: #525c65;
+  // color: #525c65;
+  color:black !important;
   text-transform: uppercase;
   display: block;
   font-size: 19px;
@@ -34,14 +40,16 @@
   // font-family: "reservation",sans-serif;
   // float: none !important;
   &:hover {
-    color: red !important;
-    border-bottom: solid 2px red;
+    color: $color-main !important;
+    border-bottom: solid 2px $color-main;
     padding-bottom: 10px;
+    font-size: 20px;
   }
 }
 .nav-info {
   text-align: center;
   letter-spacing: 3px;
+  color: black;
 }
 
 @media (min-width: 992px) {

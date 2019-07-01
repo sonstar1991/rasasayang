@@ -1,8 +1,11 @@
+@import "../../../variable.scss";
+*{
+  font-family: "Montserrat",sans-serif;
+}
 .hero-pic {
-  width: 100vw;
+  width: 100%;
   height: 100%;
   margin-top: -5vw;
-  background: rgba(0,0,0,0.5) !important;
 }
 .hero-cta {
   max-height: 90vh;
@@ -16,20 +19,29 @@
   left: 0;
   bottom: 0;
   right: 0;
-  text-align: center;
 }
 
-.hero-logo{
-  margin:auto; 
-  display:block; 
-  z-index:99; 
-  width:40vw; 
-  padding:35vh 0 0 0;
+.hero-logo {
+  margin: auto;
+  display: block;
+  z-index: 99;
+  width: 40vw;
+  padding: 35vh 0 0 0;
+  // margin-top: 25vh;
+  // margin-bottom: 45vh;
+  // margin-left: 50vh;
 }
+@media only screen and (max-width: 767px) {
+  /* phones */
+  .hero-logo {
+    display: none;
+  }
+}
+
 
 
 .mid-cta {
-  height: 60vh;
+  // height: 60vh;
   padding: 30px;
   background-image: url("../../assets/image/bg4.png");
   background-repeat: repeat;
@@ -37,14 +49,14 @@
   // background-size: cover;
 }
 
-.midcta-h2{
-  border-bottom: 2px solid #d42529;
+.midcta-h2 {
+  border-bottom: 1px solid $color-main;
   text-align: center;
-  padding:7px;
+  padding: 7px;
   -webkit-box-shadow: 0 4px 6px -6px #222;
   -moz-box-shadow: 0 4px 6px -6px #222;
   box-shadow: 0 4px 6px -6px #222;
-  color: #d42529;
+  color: $color-main;
 }
 
 .food-intro1 {
@@ -53,12 +65,15 @@
   background-position: 10%;
   background-size: cover;
   // background: white;
-  border: 2px solid #e2e2e2;
+  border: 2px solid whitesmoke;
   padding: 60px 30px;
   margin-bottom: 20px;
   margin-top: 20px;
   text-align: center;
   height: 40vh;
+  background-color: $color-main; // Tint color
+  background-blend-mode: multiply;
+  z-index: -2;
 }
 .food-intro2 {
   background-image: url("../../assets/image/noodle.jpg");
@@ -66,12 +81,15 @@
   background-position: 100%;
   background-size: cover;
   // background: white;
-  border: 2px solid #e2e2e2;
+  border: 2px solid whitesmoke;
   padding: 60px 30px;
   margin-bottom: 20px;
   margin-top: 20px;
   text-align: center;
   height: 40vh;
+  background-color: $color-main; // Tint color
+  background-blend-mode: multiply;
+  z-index: -2;
 }
 .food-intro3 {
   background-image: url("../../assets/image/noodle.jpg");
@@ -79,33 +97,42 @@
   background-position: 100%;
   background-size: cover;
   // background: white;
-  border: 2px solid #e2e2e2;
+  border: 2px solid whitesmoke;
   padding: 60px 30px;
   margin-bottom: 20px;
   margin-top: 20px;
   text-align: center;
   height: 40vh;
+  background-color: $color-main; // Tint color
+  background-blend-mode: multiply;
+  z-index: -2;
 }
 
-.food-h2{
+.food-h2 {
   font-weight: 500;
-  font-size: 23px;
-  color: #d42529;
-  margin-bottom: 20px;  
+  font-size: 20px;
+  color: white;
+  margin-bottom: 20px;
 }
 
-.food-text{
+.food-text {
   font-weight: 400;
   font-size: 15px;
-  color: #d42529;
+  color: white;
   text-align: justify center;
   margin-bottom: 20px;
 }
 
-.food-links{
+.food-links {
   font-weight: 400;
   font-size: 15px;
-  color: #d42529;
+  color: white;
   text-decoration: underline;
-  padding:5px;
+  padding: 5px;
+  z-index: 1;
+  &:hover{
+    font-size:20px;
+  }
 }
+
+
