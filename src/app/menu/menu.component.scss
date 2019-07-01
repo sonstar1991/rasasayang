@@ -1,3 +1,5 @@
+@import "../../../variable.scss";
+
 .menu {
   display: none;
   border: 1px solid;
@@ -69,7 +71,8 @@
 .button {
   margin: 5px 15px;
   padding: 10px 20px;
-  border: 1px solid red;
+  border: 1px solid $color-main;
+  background: white;
   border-radius: 3px;
   color: black;
   font-weight: bold;
@@ -132,4 +135,12 @@ h2 {
   font-weight: bold;
   padding-top: 25px;
   padding-left: 10px;
+}
+
+.wrapper{
+  background: url(../../assets/image/bg4.png);
+}
+
+.menu-bg{
+  background: url(../../assets/image/bg4.png);
 }
