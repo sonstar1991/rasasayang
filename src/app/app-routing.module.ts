@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { MainComponent } from './main/main.component';
 import { MenuComponent } from './menu/menu.component';
 import { AboutComponent } from './about/about.component';
+import { LocationComponent } from './location/location.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,9 @@ const routes: Routes = [
   },
   {
     path: 'menu', component:MenuComponent
+  },
+  {
+    path: 'location', component:LocationComponent
   }
 ];
 
