@@ -5,7 +5,7 @@
 }
 
 .footer-bg{
-    background: linear-gradient(45deg, transparent, black);
+    background: linear-gradient(45deg, #858585, black);
     opacity: 1;
 }
 
@@ -16,9 +16,9 @@
 .footer-logo{
     max-height: 45vh;
     // position: absolute;
-    top: 12px;
+    top: 0px;
     left: 0;
-    margin: 0;
+    margin: 5vh;
     padding: 5vh 0;
 }
 

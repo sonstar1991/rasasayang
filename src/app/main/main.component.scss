@@ -36,6 +36,7 @@
   .hero-logo {
     display: none;
   }
+
 }
 
 
@@ -74,6 +75,7 @@
   background-color: $color-main; // Tint color
   background-blend-mode: multiply;
   z-index: -2;
+      min-height:350px;
 }
 .food-intro2 {
   background-image: url("../../assets/image/noodleflower.jpg");
@@ -90,6 +92,7 @@
   background-color: $color-main; // Tint color
   background-blend-mode: multiply;
   z-index: -2;
+    min-height:350px;
 }
 .food-intro3 {
   background-image: url("../../assets/image/spices.jpg");
@@ -106,6 +109,7 @@
   background-color: $color-main; // Tint color
   background-blend-mode: multiply;
   z-index: -2;
+    min-height:350px;
 }
 
 .food-h2 {
@@ -114,11 +118,80 @@
   color: white;
   margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 990px) {
+
+.food-intro1 {
+  min-height:0;
+  height: auto;
+}
+
+.food-intro2 {
+    height: auto;
+    min-height:0;
+}
+
+.food-intro3 {
+    height: auto;
+    min-height:0;
+}
+
+
+
+}
+@media only screen and (max-width: 760px) {
+  .food-h2{
+    font-size: 32px;
+  }
+
+.food-intro1 {
+  height: auto;
+}
+
+.food-intro2 {
+    height: auto;
+}
+
+.food-intro3 {
+    height: auto;
+}
+
+
+
+}
+
+
+
+
 @media only screen and (max-width: 900px) {
   .food-h2{
     font-size: 32px;
   }
 }
+
+
+@media only screen and (max-width: 760px) {
+  .food-h2{
+    font-size: 32px;
+  }
+
+.food-intro1 {
+  height: auto;
+}
+
+.food-intro2 {
+    height: auto;
+}
+
+.food-intro3 {
+    height: auto;
+}
+
+
+
+}
+
+
 
 .food-text {
   font-weight: 400;
