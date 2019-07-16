@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { MainComponent } from './main/main.component';
 import { AboutComponent } from './about/about.component';
 import { LocationComponent } from './location/location.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { LocationComponent } from './location/location.component';
     FooterComponent,
     MainComponent,
     AboutComponent,
-    LocationComponent
+    LocationComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
