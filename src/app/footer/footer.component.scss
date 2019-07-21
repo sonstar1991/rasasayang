@@ -5,8 +5,9 @@
 }
 
 .footer-bg{
-    background: linear-gradient(45deg, #858585, black);
-    opacity: 1;
+/*    background: linear-gradient(45deg, #858585, black);
+    opacity: 1;*/
+background:rgba(13,13,13,.95);
 }
 
 .footer-left{
@@ -26,6 +27,17 @@
 .footer-words{
     color: white;
     text-align: center;
+}
+
+.footerwords{
+    color: #FCF2F2;
+    line-height:1;
+
+    padding-left:65px;
+    padding-top:40px;
+    padding-bottom:45px;
+    padding-right:65px;
+
 }
 
 .footer-pic{
