@@ -8,7 +8,7 @@
   display: none;
   border: 1px solid;
   padding: 80px;
-  background:url(../../assets/image/bg.jpg); 
+  background:url(../../assets/image/bgpattern.png); 
 
   &--is-visible {
     display: grid;
@@ -98,23 +98,25 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   &:hover{
-    color: $color-main;
+    color: white;
+    background: $color-main;
+    // padding: 13px 25px;
   }
   // &:active{
   //   color: blue;
   // }
 }
 
-// .highlight {
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   display: block;
-//   background-color: yellow;
-//   border-radius: 3px;
-//   z-index: -1;
-//   transition: 0.24s;
-// }
+.highlight {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  background-color: yellow;
+  border-radius: 3px;
+  z-index: -1;
+  transition: 0.24s;
+}
 
 * {
   box-sizing: border-box;
@@ -173,11 +175,17 @@ h2 {
   padding-left: 10px;
 }
 
-.wrapper{
-  background: url(../../assets/image/bg4.png);
-}
+// .wrapper{
+//   background: url(../../assets/image/wok.jpg);
+// }
 
 .menu-bg{
-  background: url(../../assets/image/bg4.png);
+  background: url(../../assets/image/wok.jpg);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
 }
 
+.title-menu{
+  // color: $color-main;
+}

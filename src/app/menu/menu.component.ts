@@ -36,8 +36,9 @@ export class MenuComponent implements OnInit {
       highlight.style.height = `${initialCoords.height}px`;
       highlight.style.transform = `translate(${initialCoords.left}px, ${initialCoords.top}px)`;
     }
-
+ 
     function handleClick(e) {
+      
       e.preventDefault();
 
       buttons.forEach(button => button.classList.remove('button--is-active'));
