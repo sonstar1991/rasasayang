@@ -12,10 +12,9 @@
   overflow: hidden;
 }
 
-
-.tableday{
-  width:150px;
-  height:40px;
+.tableday {
+  width: 150px;
+  height: 40px;
 }
 
 .logo-pic {
@@ -69,49 +68,82 @@
   text-align: center;
 }
 
-.main-bg {
+.mainintro-bg {
   width: 100%;
   height: 100%;
-  background: url(../../assets/image/bgpattern.png);
-  background-repeat: repeat;
+  background: url(../../assets/image/curryrice.jpg);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
   padding-top: 10px;
+  background-color: rgba(0,0,0,.4);
+  background-blend-mode: multiply;
+  z-index: -2;
 }
 
-.main-container{
+.main-container {
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-.rowfullwidth{
-  width:100%;
-  margin:0!important;
-  overflow:hidden;
+.rowfullwidth {
+  width: 100%;
+  margin: 0 !important;
+  overflow: hidden;
 }
+
+.logomain-col {
+  position: relative;
+  padding: 10px 0;
+}
+.wordWrapper-main {
+  text-align: center;
+  color: $color-main !important;
+  padding-top: 10px;
+}
+.a-logo {
+  text-decoration: none;
+  outline: 0;
+}
+.h3-logodescMain {
+  font-size: 28px;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.logo-container {
+  padding-top: 120px;
+  padding-bottom: 70px;
+}
+.imageWrapper-main {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.smalllogo-main {
+  width: 128px;
+  height: 128px;
+}
+
 .main-shop {
   width: 100%;
   height: 100%;
 }
-.main-h2 {
-  text-align: center;
-  font-size: 30px;
-  color: $color-main;
-  margin-top: 10px;
-  font-weight: bold;
-}
 
-.main-p{
+
+.maintable {
   text-align: center;
   color: $color-main;
-  margin-top: 20px;
+  margin-top: 40px;
+  border: 2px solid $color-main;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  // background: url(../../assets/image/bgpattern.png);
 }
 
-.maintable{
-  text-align:center; 
-  color: $color-main;
-  margin-top:40px;
-}
-
-.main-left{
+.main-left {
   padding: 10px;
 }
 
@@ -123,15 +155,32 @@
   // background-position: 50% 50%;
   // background-size: cover;
 }
-
-.midcta-h2 {
-  border-bottom: 1px solid $color-main;
+.mainintro-container{
+  border: 1px solid #fff;
+  -webkit-box-shadow: 0 4px 6px -6px #fff;
+  -moz-box-shadow: 0 4px 6px -6px #fff;
+  box-shadow: 0 4px 6px -6px #fff;
+  padding: 60px;
+}
+.main-h1 {
+  font-size: 38px;
+  line-height: 40px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #fff;
   text-align: center;
   padding: 7px;
-  -webkit-box-shadow: 0 4px 6px -6px #222;
-  -moz-box-shadow: 0 4px 6px -6px #222;
-  box-shadow: 0 4px 6px -6px #222;
+}
+.midcta-h2 {
+  text-align: center;
+  padding: 7px;
   color: $color-main;
+}
+.main-p {
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 17px;
 }
 
 .food-intro1 {
@@ -193,22 +242,18 @@
   margin-bottom: 20px;
 }
 
-.foodpic{
+.foodpic {
   height: 40vh;
   width: 100%;
-  padding-top:40px; 
+  padding-top: 40px;
 }
 
-.foodpic2{
-
+.foodpic2 {
   width: 100%;
- 
 }
-.nopadding{
-  padding:0!important;
-
+.nopadding {
+  padding: 0 !important;
 }
-
 
 @media only screen and (max-width: 990px) {
   .food-intro1 {

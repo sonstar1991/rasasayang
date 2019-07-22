@@ -30,8 +30,9 @@ export class MenuComponent implements OnInit {
         height: activeButtonCoords.height,
         left: activeButtonCoords.left + window.scrollX,
         top: activeButtonCoords.top + window.scrollY
+       
       }
-     
+
       highlight.style.width = `${initialCoords.width}px`;
       highlight.style.height = `${initialCoords.height}px`;
       highlight.style.transform = `translate(${initialCoords.left}px, ${initialCoords.top}px)`;
@@ -52,6 +53,7 @@ export class MenuComponent implements OnInit {
         left: buttonCoords.left + window.scrollX,
         top: buttonCoords.top + window.scrollY
       }
+      
       highlight.style.width = `${coords.width}px`;
       highlight.style.height = `${coords.height}px`;
       highlight.style.transform = `translate(${coords.left}px, ${coords.top}px)`;
