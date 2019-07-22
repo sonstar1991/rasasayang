@@ -97,18 +97,24 @@
   text-decoration: none;
   letter-spacing: 1px;
   text-transform: uppercase;
+  &:hover{
+    color: $color-main;
+  }
+  // &:active{
+  //   color: blue;
+  // }
 }
 
-.highlight {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  background-color: yellow;
-  border-radius: 3px;
-  z-index: -1;
-  transition: 0.24s;
-}
+// .highlight {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   display: block;
+//   background-color: yellow;
+//   border-radius: 3px;
+//   z-index: -1;
+//   transition: 0.24s;
+// }
 
 * {
   box-sizing: border-box;
@@ -174,3 +180,4 @@ h2 {
 .menu-bg{
   background: url(../../assets/image/bg4.png);
 }
+

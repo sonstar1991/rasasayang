@@ -8,7 +8,7 @@
   height: 70px;
   width: 100%;
   padding-top: 20px;
-  background: url(../../assets/image/bg4.png);
+  background: url(../../assets/image/bgpattern.png);
   z-index: 1;
 }
 .navbar-nav{
@@ -41,7 +41,7 @@
   // float: none !important;
   &:hover {
     color: $color-main !important;
-    border-bottom: solid 2px $color-main;
+    // border-bottom: solid 2px $color-main;
     padding-bottom: 10px;
     font-size: 20px;
   }
