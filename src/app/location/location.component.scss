@@ -1,34 +1,88 @@
-.location-top{
-    padding-top:10vh;
-    //background: url(../../assets/image/bg4.png);
-    background: url(../../assets/image/bgpattern.png);
-    height: 100%;
+@import "../../../variable.scss";
+
+.location-container {
+  background-image: url(../../assets/image/fullcharkueyteow.JPG);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 15vh;
 }
 
-.location-title{
-    text-align: center;
-    // margin-top: 5vh;
-    margin-bottom: 2vh;
-    font-size: 5vw;
-    color: #333333;
+.top_content {
+  text-align: center;
 }
 
-.location-details{
-    text-align: center;
-    margin-top: 4vh;
-    margin-bottom: 2vh;
-    font-size: 1.5vw;
-    color: #333333;
-    padding: 10px;
+.location-h1 {
+  font-size: 40px;
+  color: #ffff;
+  text-transform: none !important;
+  text-align: center;
 }
 
-.location-cta{
-    text-align: center;
-    margin-top: 20px;
-    padding: 5px;
+.location-p {
+  padding-right: 5px;
 }
 
-.location-logo{
-    height:auto;
-    width: 200px;  
+.h2-locationdetails {
+  text-align: center;
+}
+
+.locationcta-container {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  // margin-left: 5vh;
+}
+
+.warpper-locationdetails {
+  border: 1px solid black;
+  padding: 25px 20px 25px 30px;
+  background: url(../../assets/image/shop.jpg);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: multiply;
+  z-index: -2;
+  color: white;
+}
+
+.wrapper-locationdetails2 {
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.wrapper-locationicons {
+  text-align: center;
+}
+
+.location-icon {
+  padding: 8px;
+}
+
+.location-table {
+  text-align: center;
+  color: $color-main;
+  margin-top: 0;
+  margin-left: 70px;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: url(../../assets/image/logo.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
+  background-color: $color-main;
+  background-blend-mode: multiply;
+  z-index: -2;
+  border: 1px solid black;
+  color: #ffff;
+}
+@media only screen and (max-width: 1000px){
+    .location-table{
+        margin-top: 10px;
+        margin-left: 0;
+    }
 }

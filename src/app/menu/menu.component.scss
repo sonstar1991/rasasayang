@@ -1,14 +1,10 @@
 @import "../../../variable.scss";
 
-
-
-
-
 .menu {
   display: none;
   border: 1px solid;
   padding: 80px;
-  background:url(../../assets/image/bgpattern.png); 
+  background: url(../../assets/image/bgpattern.png);
 
   &--is-visible {
     display: grid;
@@ -17,24 +13,19 @@
   @media (min-width: 768px) {
     // grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 80px;
-    grid-template-rows: repeat(2,1fr);
+    grid-template-rows: repeat(2, 1fr);
     padding: 80px;
   }
 }
 
-
 @media screen and (max-width: 768px) {
-.menu {
-  padding-left: 5px;
-  padding-right:5px;
-  padding-top:30px;
-  padding-bottom:30px;
-
+  .menu {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
-
-
-}
-
 
 .item {
   &__header {
@@ -45,7 +36,7 @@
 
   &__title {
     font-size: 15px;
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: black;
     letter-spacing: 2px;
     margin: 0;
@@ -60,16 +51,16 @@
   &__price {
     color: black;
     font-size: 18px;
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat", sans-serif;
   }
 
   &__description {
     margin-bottom: 40px;
-    font-family: "Montserrat",sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 10px;
   }
 
-  &__foodpic{
+  &__foodpic {
     height: 100px;
     width: 100px;
   }
@@ -89,7 +80,7 @@
 .button {
   margin: 5px 15px;
   padding: 10px 20px;
-  border: 1px solid $color-main;
+  border: 1px solid black;
   background: white;
   border-radius: 3px;
   color: black;
@@ -97,9 +88,10 @@
   text-decoration: none;
   letter-spacing: 1px;
   text-transform: uppercase;
-  &:hover{
+  &:hover {
     color: white;
     background: $color-main;
+    border: 1px solid $color-main;
     // padding: 13px 25px;
   }
   // &:active{
@@ -122,8 +114,8 @@
   box-sizing: border-box;
 }
 
-.column{
-    text-align: center;
+.column {
+  text-align: center;
 }
 
 //   body {
@@ -151,24 +143,24 @@ h2 {
   display: inline-block;
   border-bottom: 4px solid red;
   margin-top: 100px;
-/*  font: 50px cookie, cursive;*/
+  /*  font: 50px cookie, cursive;*/
 
   font: 50px, cursive;
-  font-family: "Montserrat",sans-serif;
+  font-family: "Montserrat", sans-serif;
 
   margin-bottom: 30px;
 }
 
-.chefspecial-header{
+.chefspecial-header {
   text-align: left;
-/*  font-weight: bold;*/
-    font-family: "Montserrat-Bold",sans-serif;
-  font-size:20px;
+  /*  font-weight: bold;*/
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 20px;
   padding-top: 25px;
   padding-left: 10px;
 }
 
-.noodles-header{
+.noodles-header {
   text-align: left;
   font-weight: bold;
   padding-top: 25px;
@@ -179,13 +171,13 @@ h2 {
 //   background: url(../../assets/image/wok.jpg);
 // }
 
-.menu-bg{
+.menu-bg {
   background: url(../../assets/image/wok.jpg);
   background-repeat: no-repeat;
   background-position: 100%;
   background-size: cover;
 }
 
-.title-menu{
+.title-menu {
   // color: $color-main;
 }
