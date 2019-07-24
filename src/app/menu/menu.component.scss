@@ -2,10 +2,10 @@
 
 .menu {
   display: none;
-  border: 1px solid;
+  border: 2px solid $color-main;
   padding: 80px;
-  background: url(../../assets/image/bgpattern.png);
-
+  // background: url(../../assets/image/bgpattern.png);
+  background: white;
   &--is-visible {
     display: grid;
   }
@@ -80,7 +80,7 @@
 .button {
   margin: 5px 15px;
   padding: 10px 20px;
-  border: 1px solid black;
+  border: 2px solid $color-main;
   background: white;
   border-radius: 3px;
   color: black;
@@ -141,13 +141,11 @@
 
 h2 {
   display: inline-block;
-  border-bottom: 4px solid black;
+  border-bottom: 4px solid $color-main;
   margin-top: 100px;
   /*  font: 50px cookie, cursive;*/
-
-  font: 50px, cursive;
-  font-family: "Montserrat", sans-serif;
-
+  font-weight: 500;
+  font-size: 50px;
   margin-bottom: 30px;
 }
 

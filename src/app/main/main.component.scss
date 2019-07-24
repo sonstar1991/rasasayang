@@ -146,15 +146,15 @@
   padding-bottom: 50px;
   padding-left: 10px;
   padding-right: 10px;
-  background: url(../../assets/image/bg2.png);
-  background-repeat: repeat;
-  background-position: 10% 10%;
+  // background: url(../../assets/image/bg2.png);
+  // background-repeat: repeat;
+  // background-position: 10% 10%;
   // background-size: cover;
   // top: -0.5rem;
   // bottom: -0.5rem;
   // left: -0.5rem;
   // right: -0.5rem;
-  border: 0.25rem solid #e6d3b5;
+  border: 2px solid $color-main;
 }
 
 .main-left {
