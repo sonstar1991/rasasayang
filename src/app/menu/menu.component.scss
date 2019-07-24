@@ -2,7 +2,7 @@
 
 .menu {
   display: none;
-  border: 2px solid white;
+  border: 1px solid black;
   padding: 80px;
   // background: url(../../assets/image/bgpattern.png);
   background: $color-main;
@@ -80,7 +80,7 @@
 .button {
   margin: 5px 15px;
   padding: 10px 20px;
-  border: 1px solid white;
+  border: 1px solid black;
   background: $color-main;
   border-radius: 3px;
   color: white;
@@ -147,6 +147,7 @@ h2 {
   font-weight: 500;
   font-size: 50px;
   margin-bottom: 30px;
+  // color: white;
 }
 
 .chefspecial-header {
