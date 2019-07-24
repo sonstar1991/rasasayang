@@ -10,8 +10,11 @@
   padding-top: 20px;
   // background: url(../../assets/image/bgpattern.png);
   z-index: 1;
-  border-bottom:1px solid black;
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, .2);
+  // border-bottom:1px solid black;
+  // box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, .2);
+  border-bottom: 1px solid $color-main;
+  box-shadow: 0px 1px 3px 0px $color-main;
+  background:rgba(13,13,13,.95) !important;
 }
 .navbar-nav{
   margin-left: 150px;
@@ -32,7 +35,7 @@
 .nav-link {
   text-align: center;
   // color: #525c65;
-  color:black !important;
+  color:white !important;
   text-transform: uppercase;
   display: block;
   font-size: 19px;
@@ -51,8 +54,8 @@
 @media (max-width:992px){
   .nav-link{
     //background: url(../../assets/image/bgpattern.png);
-    background:white;
-
+    background:rgba(13,13,13,.95) ;
+    color: white;
     padding: 15px 0;
     margin: 0;
     position: relative;
@@ -68,7 +71,7 @@
 .nav-info {
   text-align: center;
   letter-spacing: 3px;
-  color: black;
+  color: white;
 }
 @media (max-width: 992px) {
   .nav-info{
@@ -105,7 +108,7 @@
 // }
 
 .navbar .navbar-toggler-icon {
-  background-image: url('../../assets/image/fork.svg');
+  background-image: url('../../assets/image/food.svg');
  
   }
 

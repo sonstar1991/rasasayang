@@ -2,10 +2,10 @@
 
 .menu {
   display: none;
-  border: 2px solid $color-main;
+  border: 2px solid white;
   padding: 80px;
   // background: url(../../assets/image/bgpattern.png);
-  background: white;
+  background: $color-main;
   &--is-visible {
     display: grid;
   }
@@ -37,7 +37,7 @@
   &__title {
     font-size: 15px;
     font-family: "Montserrat", sans-serif;
-    color: black;
+    color: white;
     letter-spacing: 2px;
     margin: 0;
   }
@@ -49,7 +49,7 @@
   }
 
   &__price {
-    color: black;
+    color: white;
     font-size: 18px;
     font-family: "Montserrat", sans-serif;
   }
@@ -80,17 +80,17 @@
 .button {
   margin: 5px 15px;
   padding: 10px 20px;
-  border: 2px solid $color-main;
-  background: white;
+  border: 1px solid white;
+  background: $color-main;
   border-radius: 3px;
-  color: black;
+  color: white;
   font-weight: bold;
   text-decoration: none;
   letter-spacing: 1px;
   text-transform: uppercase;
   &:hover {
-    color: white;
-    background: $color-main;
+    color: $color-main;
+    background: white;
     border: 1px solid $color-main;
     // padding: 13px 25px;
   }

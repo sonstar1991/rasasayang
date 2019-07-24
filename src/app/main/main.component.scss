@@ -76,7 +76,7 @@
   background-position: 100%;
   background-size: cover;
   padding-top: 10px;
-  background-color: rgba(0,0,0,.4);
+  background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: multiply;
   z-index: -2;
 }
@@ -95,10 +95,11 @@
 .logomain-col {
   position: relative;
   padding: 10px 0;
+  background: $color-main;
 }
 .wordWrapper-main {
   text-align: center;
-  color: $color-main !important;
+  color: white !important;
   padding-top: 10px;
 }
 .a-logo {
@@ -112,10 +113,11 @@
 }
 
 .logo-container {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  height: 100%;
 }
 .imageWrapper-main {
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
   margin-bottom: 15px;
 }
@@ -129,18 +131,22 @@
   width: 100%;
   height: 100%;
 }
-// .main-bg{
-//   background: url(../../assets/image/watanhorclose.JPG);
-// }
-.table-container{
-  margin-top: 50px;
+
+.main-bg{
+  background:$color-main;
+  height:100%
+}
+
+.table-container {
+  // margin-top: 50px;
+  padding-top: 50px;
   margin-bottom: 50px;
 }
 
 .maintable {
   text-align: center;
-  color: $color-main;
-  margin-top: 40px;
+  color: white;
+  // margin-top: 40px;
   // border: 2px solid $color-main;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -154,7 +160,10 @@
   // bottom: -0.5rem;
   // left: -0.5rem;
   // right: -0.5rem;
-  border: 2px solid $color-main;
+  border: 2px solid white;
+  -webkit-box-shadow: 0 4px 6px -6px #fff;
+  -moz-box-shadow: 0 4px 6px -6px #fff;
+  box-shadow: 0 4px 6px -6px #fff;
 }
 
 .main-left {
@@ -168,18 +177,19 @@
   // background-repeat: repeat;
   // background-position: 50% 50%;
   // background-size: cover;
+  background: $color-main;
 }
-.mainintro-container{
-  border: 1px solid #fff;
-  -webkit-box-shadow: 0 4px 6px -6px #fff;
-  -moz-box-shadow: 0 4px 6px -6px #fff;
-  box-shadow: 0 4px 6px -6px #fff;
+.mainintro-container {
+  // border: 1px solid #fff;
+  // -webkit-box-shadow: 0 4px 6px -6px #fff;
+  // -moz-box-shadow: 0 4px 6px -6px #fff;
+  // box-shadow: 0 4px 6px -6px #fff;
   padding: 60px;
 }
 .main-h1 {
   font-size: 38px;
   line-height: 40px;
-  font-weight: 400;
+  font-weight: bold;
   letter-spacing: 0px;
   color: #fff;
   text-align: center;
@@ -188,13 +198,13 @@
 .midcta-h2 {
   text-align: center;
   padding: 7px;
-  color: $color-main;
+  color: white;
 }
 .main-p {
   text-align: center;
   color: #fff;
   margin-top: 20px;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .food-intro1 {
@@ -204,6 +214,9 @@
   background-size: cover;
   // background: white;
   border: 2px solid whitesmoke;
+  -webkit-box-shadow: 0 4px 6px -6px #fff;
+  -moz-box-shadow: 0 4px 6px -6px #fff;
+  box-shadow: 0 4px 6px -6px #fff;
   padding: 60px 30px;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -221,6 +234,9 @@
   background-size: cover;
   // background: white;
   border: 2px solid whitesmoke;
+  -webkit-box-shadow: 0 4px 6px -6px #fff;
+  -moz-box-shadow: 0 4px 6px -6px #fff;
+  box-shadow: 0 4px 6px -6px #fff;
   padding: 60px 30px;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -238,6 +254,9 @@
   background-size: cover;
   // background: white;
   border: 2px solid whitesmoke;
+  -webkit-box-shadow: 0 4px 6px -6px #fff;
+  -moz-box-shadow: 0 4px 6px -6px #fff;
+  box-shadow: 0 4px 6px -6px #fff;
   padding: 60px 30px;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -346,5 +365,3 @@
     font-size: 20px;
   }
 }
-
-
