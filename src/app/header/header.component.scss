@@ -47,8 +47,8 @@
   &:hover {
     color: $color-main !important;
     // border-bottom: solid 2px $color-main;
-    padding-bottom: 10px;
-    font-size: 20px;
+    // padding-bottom: 10px;
+    // font-size: 20px;
   }
 }
 @media (max-width:992px){
@@ -56,10 +56,11 @@
     //background: url(../../assets/image/bgpattern.png);
     background:rgba(13,13,13,.95) ;
     color: white;
-    padding: 15px 0;
+    padding: 15px 70px 15px 70px;
     margin: 0;
     position: relative;
     width: 100%;
+    display: block;
   }
   .nav-item{
     padding:0;
