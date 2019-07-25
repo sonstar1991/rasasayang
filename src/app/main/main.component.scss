@@ -61,6 +61,12 @@
     font-size: 15px !important;
   }
 }
+@media only screen and (max-width: 376px){
+  .hero-logo{
+    padding: 21vh 0 0 0;
+  }
+}
+
 @media only screen and (max-width: 380px){
   .hero-logo{
     padding: 18vh 0 0 0;
