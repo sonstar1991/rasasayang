@@ -8,13 +8,13 @@
     width: 100%;
     height: 100%;
     padding-top:10px;
-    background-image: url("../../assets/image/noodleflower.jpg");
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-    background-color: $color-main; // Tint color
-    background-blend-mode: multiply;
-    z-index: -2;
+    // background-image: url("../../assets/image/noodleflower.jpg");
+    // background-repeat: no-repeat;
+    // background-position: 50% 50%;
+    // background-size: cover;
+    background-color: black; // Tint color
+    // background-blend-mode: multiply;
+    // z-index: -2;
 }
 
 .about-container {

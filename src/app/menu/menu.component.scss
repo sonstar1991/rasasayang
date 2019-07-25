@@ -2,10 +2,10 @@
 
 .menu {
   display: none;
-  border: 1px solid black;
+  border: 1px solid $color-main;
   padding: 80px;
   // background: url(../../assets/image/bgpattern.png);
-  background: $color-main;
+  background: black;
   &--is-visible {
     display: grid;
   }
@@ -80,8 +80,8 @@
 .button {
   margin: 5px 15px;
   padding: 10px 20px;
-  border: 1px solid black;
-  background: $color-main;
+  border: 1px solid $color-main;
+  background: black;
   border-radius: 3px;
   color: white;
   font-weight: bold;
@@ -89,8 +89,8 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   &:hover {
-    color: $color-main;
-    background: white;
+    color: white;
+    background: $color-main;
     border: 1px solid $color-main;
     // padding: 13px 25px;
   }
@@ -157,6 +157,7 @@ h2 {
   font-size: 20px;
   padding-top: 25px;
   padding-left: 10px;
+  color:white;
 }
 
 .noodles-header {
@@ -164,6 +165,8 @@ h2 {
   font-weight: bold;
   padding-top: 25px;
   padding-left: 10px;
+  color:white;
+  font-size: 20px;
 }
 
 // .wrapper{
