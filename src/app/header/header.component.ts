@@ -14,10 +14,12 @@ export class HeaderComponent implements OnInit {
 
 $('.navbar-collapse a').click(function(){
     $('.navbar-collapse').collapse('hide');
-    console.log("test");
 });
 
 
+$('.navbar a').click(function(){
+    $('.navbar-collapse').collapse('hide');
+});
 
 
   }

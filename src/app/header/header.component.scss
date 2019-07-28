@@ -19,6 +19,19 @@
 .navbar-nav{
   margin-left: 150px;
 }
+
+@media (max-width: 992px) {
+.navbar-nav{
+  margin-left: 0px;
+  margin-top:11px;
+}
+}
+
+
+
+
+
+
 .logoImage {
   height: 130px;
   position: absolute;
