@@ -4,12 +4,54 @@
   background-color: black;
   width: 100%;
   height: 100%;
-  padding-top: 20vh;
+  padding-top: 100px;
+  min-height:80vh;
+  overflow:hidden;
+  padding-right:15px;
+
 }
+
+@media only screen and (max-width: 992px) {
+.locationcta-container {
+  padding-right:0px;
+}
+}
+
+
 
 .top_content {
   text-align: center;
 }
+
+
+.table-container {
+  // margin-top: 50px;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+.tableday {
+  width: 150px;
+  height: 40px;
+}
+
+.maintable {
+
+}
+
+.tablecenter{
+  text-align:left; color:white; font-size:12px;
+}
+@media only screen and (max-width: 992px) {
+.maintable {
+text-align:center;
+}
+
+.tablecenter{
+ margin-left:auto;
+ margin-right:auto 
+}
+}
+
 
 // .location-h1 {
 //   font-size: 40px;
@@ -36,6 +78,15 @@
 .warpper-locationdetails {
   margin-left: 50px;
 }
+@media only screen and (max-width: 990px) {
+.warpper-locationdetails {
+  margin-left: 10px;
+  text-align:center;
+}
+}
+
+
+
 
 .wrapper-locationdetails2 {
   text-align: left;
